@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/toolbar_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#252121"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lutfi Indiarto Wirayuda"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.34.20.4.12"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lutfi"
+            app:shapeAppearanceOverlay="@style/Circular"
+            app:strokeColor="@android:color/darker_gray"
+            app:strokeWidth="2dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
